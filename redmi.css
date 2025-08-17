@@ -1,0 +1,368 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.nav1 {
+    width: 100%;
+    display: flex;
+    padding: 10px; 
+}
+.navlink {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: solid #fff; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2) ;
+}
+.navlink a {
+    text-decoration: none;
+    color: #000;
+}
+.navlink :hover {
+     cursor: pointer;
+    text-decoration: none;
+    color:orange ;
+}
+.left-side {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    box-sizing: border-box;
+}
+.left-side a{
+     padding: 10px;
+}
+.right-side {
+    display: flex;
+    margin-top: 10px;
+}
+.right-side a{
+        padding: 10px;
+        margin-bottom: 5px;
+}
+.new{
+    width: 40px;
+    color: #785a25;
+    height: auto;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    border-radius: 20px;
+    background:linear-gradient(to right, #e8cda1, #f5e6c7) ;
+    text-align: center;
+    font-size: 13px;
+}
+.left-side h1{
+    font-size: 28px;
+}
+.left-side a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #5e5e5e;
+}
+.left-side a:hover{
+    cursor: pointer;
+    color: orange;
+}
+.nave-2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: solid #f5f5f5;;
+}
+.right-side-1{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+}
+.right-side-1 p{
+    font-size: 18px;
+}
+.right-side-1 button{
+    width: 128px;
+    height: 36px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+     margin-left: 10px;
+}
+.login{
+    text-align: center;
+    font-size: 14px;
+    color: #757575;
+    margin: 10px;
+}
+.login a{
+    color: orange;
+}
+.redmi-pic{
+    height: auto;
+    width: 690px;
+    display: flex;
+    margin-top: 10px;
+}
+.redmi-pic img{
+    margin-top: 30px;
+}
+.redmi-pic-3{
+    border-radius: 30%;
+    border:#757575;
+    text-decoration: none;
+    padding: 5px;
+    padding-top: 10px;
+    background-color: #757575;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+}
+.img-section{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 0;
+    background-color: #f7f8fa;
+    padding: 20px;
+}
+.img-section div {
+    margin: 0;
+}
+.offer{
+    display: flex;
+    width: 580px;
+    height: auto;
+    margin-top: 20px;
+}
+.right-side-6{
+    background-color: white;
+    padding: 10px;
+    margin-left: 20px;
+    width: 100%;
+}
+.exchange{
+    padding: 5px;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    font-size: 13px; 
+}
+.exchange img{
+    margin-top: 5px;
+    padding: 5px;
+    padding-left: 6px;
+    padding-right: 10px;
+    padding-top: 0;
+}
+.mi{
+    padding: 5px;
+    cursor: pointer;
+    align-items: center;
+    display: flex; 
+    font-size: 13px;
+}
+.mi img{
+     margin-top: 5px;
+     margin-bottom: 5px;
+    padding-right: 5px;
+
+}
+.storage button {
+    width: 152px;
+    height: 60px;
+    align-items: center; 
+    border:solid #ff6900;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #fff;
+}
+.storage p{
+     text-align: center;
+}
+.colour{
+    display: flex;;
+}
+.colour button{
+    border: solid #d9d9d9; 
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+     padding: 10px;
+    width: 152px;
+    height: auto;
+    margin: 10px;
+}
+.colour button:hover{
+    cursor: pointer;
+    border-color: #ff6900;
+
+}
+.colour img{
+   align-items: center;
+    margin-left: 10px;
+    display: flex; 
+    justify-items: center; 
+}
+.smartphone{
+    border: solid #d9d9d9; 
+    background-color: #fff;
+    border-radius: 10px;
+    padding-top: 10px;
+    width: 484px;
+    margin: 10px; 
+}
+.smartphone p{
+    margin-left: 20px;
+    margin-top: 0;
+}
+.old{
+    display: flex;
+   margin: 10px;
+   margin-bottom: 10px;
+}
+.checkbox input {
+    width: 18px;
+    height: 18px;
+    align-items: flex-start;
+    margin: 10px;
+}
+.delivery{
+    margin: 10px;
+}
+.note{
+    display:flex;
+    justify-items: flex-end;
+    padding: 5px;
+    float: right;
+    margin-top: 20px;
+}
+.button button{
+    width: 484px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.old img{
+    padding-top: 10px;
+    margin-top: 10px; 
+}
+.class18{
+    border: 10px;
+    width: 224px;
+    height: 350px;
+    padding: 10px;
+    border: solid #ededed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    margin: 20px;
+    border-radius: 10px;
+    text-align: start;
+    background-color: #f5f5f5;
+}
+.class18 img{
+    width: 166px;
+    height: 166px;
+}
+.price{
+    text-decoration: line-through; 
+    color: gray;
+}
+.save-p{
+    padding: 5px;
+    border: orange;
+    border-radius: 20px;
+    background-color: #fbeed5 ;
+    width: 120px;
+    text-align: center;
+    color:#785a25;
+}
+.footer{
+    background-color:black;
+    color: white;
+    width: auto;
+    height: auto;
+    height: fit-content;
+    margin-left: 20px;
+}
+.full{
+    display: flex;
+    justify-content: space-between;
+}
+.support li{
+    list-style: none;
+    margin: 10px;
+    margin-left: 10px;
+} 
+.footer h4{
+    margin: 20px;
+}
+.support a{
+    color: #5e5e5e;
+    text-decoration: none;
+}
+.shop li{
+    list-style: none;
+    margin: 10px;
+    margin-left: 10px;
+} 
+.shop a{
+     color: #5e5e5e;
+    text-decoration: none;
+}
+.Store li{
+    list-style: none;
+    margin: 10px;
+    margin-left: 10px;
+}
+.Store a{
+     color: #5e5e5e;
+    text-decoration: none;
+}
+.about li{
+    list-style:none;
+    margin: 10px;
+    margin-left: 10px;
+}
+.about a{
+    color: #5e5e5e;
+    text-decoration: none;
+}
+.follow input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+   margin-bottom: 10px;
+}
+.qr{
+    border: solid white;
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+}
+.google{
+    margin: 10px;
+}
+.goolge a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+}
+.goolge a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.border-bottom{
+    border-bottom:1px dashed #5e5e5e;
+}
+main{
+    margin: 10px;
+}

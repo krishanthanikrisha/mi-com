@@ -1,0 +1,508 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 5px;
+}
+.nav1 {
+    width: 100vw;
+     display: flex;
+    padding: 10px; 
+}
+.navlink {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.navlink a {
+    text-decoration: none;
+    color: #000;
+}
+.navlink :hover {
+     cursor: pointer;
+    text-decoration: none;
+    color:orange ;
+}
+.left-side {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    box-sizing: border-box;
+}
+.left-side a{
+     padding: 10px;
+}
+.right-side {
+    display: flex;
+    margin-top: 10px;
+}
+.right-side a{
+        padding: 10px;
+        margin-bottom: 5px;
+}
+.photos{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.photos a{
+    text-decoration: none;
+    justify-content: center;
+    color: #000;
+}
+.exclusive-box {
+    border: 5px;
+    border: 10px;
+    width: 500px;
+    padding: 20px;
+    border: solid #ededed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    align-items: center; 
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.exclusive-box-1 {
+    border: 5px;
+    border: 10px;
+    width: 500px;
+    padding: 10px;
+    border: solid #ededed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    align-items: center; 
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.exclusive-box-2 {
+    border: 5px;
+    border: 10px;
+    width: 500px;
+    padding: 20px;
+    border: solid #ededed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    align-items: center; 
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.Xiaomi a{
+    border-radius: 30%;
+    border: none;
+    justify-items: flex-end;
+    text-decoration: none;
+    padding: 5px;
+    padding-top: 5px;
+    background-color:#d0d0d0;
+    color: white;
+    float: right;
+}
+.club {
+    display: flex;
+}
+.Xiaomi{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.box-1{
+    display: flex;
+}
+.tv{
+    display: flex;
+}
+
+.tv-1{
+    border: 5px;
+    border: 10px;
+    width: 400px;
+    padding: 20px;
+    border: solid #ededed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    align-items: center; 
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: start;
+    background-color: #ededed;
+}
+.back{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.back a{
+    border-radius: 30%;
+    border: none;
+    justify-items: flex-end;
+    text-decoration: none;
+    padding: 5px;
+    padding-top: 5px;
+    background-color: #d0d0d0;
+    color: white;
+    float: right;
+}
+.tv-2{
+    border: 5px;
+    border: 10px;
+    width: 300px;
+    padding: 20px;
+    border: solid #ededed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    align-items: center; 
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: start;
+}
+.tv-3{
+    border: 5px;
+    border: 10px;
+    width: 300px;
+    padding: 20px;
+    border: solid #ededed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    align-items: center; 
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: start;
+}
+.tv-4{
+    border: 5px;
+    border: 10px;
+    width: 300px;
+    padding: 20px;
+    border: solid #ededed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    align-items: center; 
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: start;
+}
+.redmi-h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.redmi-a{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.redmi-a a{
+    padding: 15px;
+    color: #000;
+    text-decoration: none ;
+}
+.redmi-a :hover{
+    cursor: pointer;
+    color: orange;
+    text-decoration: underline;   
+}
+.price{
+    text-decoration: line-through; 
+    color: gray;
+}
+.note-14{
+    display : flex;
+}
+.class15{
+    border: 10px;
+    width: 500px;
+    padding: 20px;
+    border: solid #ededed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    align-items: center; 
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: start;
+    background-color: #ededed;
+}
+.class-image{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.save-p{
+    padding: 5px;
+    border: orange;
+    border-radius: 20px;
+    background-color: #fbeed5 ;
+    width: 120px;
+    text-align: center;
+    color:#785a25;
+}
+.class16{
+    border: 10px;
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    border: solid #ededed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    align-items: center; 
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: start;
+}
+.class17{
+    border: 10px;
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    border: solid #ededed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    align-items: center; 
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: start;
+}
+.class18{
+    border: 10px;
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    border: solid #ededed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    align-items: center; 
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: start;
+}
+.note-15{
+    display : flex;
+}
+.class19 {
+    border: 10px;
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    border: solid #ededed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    align-items: center; 
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: start;
+}
+.class20{
+    border: 10px;
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    border: solid #ededed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    align-items: center; 
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: start;
+}
+.class21{
+    border: 10px;
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    border: solid #ededed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    align-items: center; 
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.class21 a{
+     border-radius: 30%;
+    border: black;
+    justify-items: flex-end;
+    text-decoration: none;
+    padding: 5px;
+    padding-top: 10px;
+    background-color: white;
+    color: black;
+    float: right;
+}
+.tablets-h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.tablets-a{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.tablets-a a{
+    padding: 15px;
+    color: #000;
+    text-decoration: none ;
+}
+.tablets-a  :hover{
+    cursor: pointer;
+    color: orange;
+    text-decoration: underline;
+}
+.pad{
+    display: flex;
+}
+.pad1{
+    border: 10px;
+    width: 500px;
+    height: 350px;
+    padding: 20px;
+    border: solid #ededed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    align-items: center; 
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: start;
+    background-color: #ededed;
+}
+.pad2{
+    border: 10px;
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    border: solid #ededed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    align-items: center; 
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: start;
+}
+.pad3{
+    border: 10px;
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    border: solid #ededed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    align-items: center; 
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: start;
+}
+.pad-4G{
+    display: flex;
+}
+.mi-com{
+    border: 10px;
+    width: 1400px;
+    height: 100px;
+    padding: 20px;
+    border: solid #ededed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    align-items: center; 
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: start;
+}
+.com{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.com a{
+    text-decoration: none;
+    justify-content: center;
+    color: orange;
+}
+.class-box{
+    border: 10px;
+    width: 1400px;
+    height: 250px;
+    padding: 20px;
+    border: solid #ededed;
+    background-color:#ededed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    align-items: center; 
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: start;
+    margin-top: 40px;
+}
+.sub{
+    margin-top: 40px;
+    text-align: center;
+    border: none;
+}
+.sub input{
+    height: 50px;
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+}
+.sub button{
+    background-color: #5e5e5e;
+    color: white;
+    border: none;
+    margin-left: none;
+    border-radius: 10px;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+}
+.checkbox input {
+    width: 20px;
+    height: 20px;
+}
+.footer{
+    background-color:black;
+    color: white;
+    width: 1435px;
+    height: auto;
+    height: fit-content;
+    margin-left: 20px;
+}
+.full{
+    display: flex;
+    justify-content: space-between;
+}
+.support li{
+    list-style: none;
+} 
+.support a{
+    color: #5e5e5e;
+    text-decoration: none;
+}
+.shop li{
+    list-style: none;
+} 
+.shop a{
+     color: #5e5e5e;
+    text-decoration: none;
+}
+.Store li{
+    list-style: none;
+}
+.Store a{
+     color: #5e5e5e;
+    text-decoration: none;
+}
+.about li{
+    list-style:none;
+}
+.about a{
+    color: #5e5e5e;
+    text-decoration: none;
+}
+.follow input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.qr{
+    border: solid white;
+    border-radius: 10px;
+    color: white;
+}
+.goolge a{
+    color: white;
+    text-decoration: none;
+}
+.goolge a:hover{
+    color: white;
+    text-decoration: underline;
+}
